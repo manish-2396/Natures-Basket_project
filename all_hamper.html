@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/append.css">
+    <link rel="stylesheet" href="./style/all_hamper.css">
+    <link rel="stylesheet" href="./Style/footer.css">
+    <title>All Hampers</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="left">
+
+            <diV id="filter">
+                <span >FILTER
+                    <span id="clearall" style="margin-left:60px; color: greenyellow; font-size: small;">CLEAR ALL</span>
+                </span><hr>
+                <div id="gift_hamper">
+                    <h4><a href="gift.html">Gift Hampers</a></h4>
+                    <p>All Hampers</p>
+                </div><hr>
+                <div id="brand">
+                    <h4>Brands</h4>
+                    <input type="checkbox" id="Assorted" name="Assorted" value="Assorted">
+                    <label for="Assorted">Assorted</label><br>
+                </div>
+            </diV>
+            <div id="form">
+                <h5 style="text-align: center; ">CONTACT US FOR CUSTOMIZED GIFTING SOLUTIONS</h5> 
+             <form>
+                <span><select name="gender">
+                    <option value="Mr">Mr.</option>
+                    <option value="Mrs">Mrs.</option>
+                </select>
+            <input type="text" placeholder="First Name" style="width: 60%;">*
+            </span><br><br>
+            <input type="text" placeholder="Last Name">*<br><br>
+            <input type="email" placeholder="Email Id">*<br><br>
+            <input type="number" placeholder="Mobile No.">*<br><br>
+            <select name="location" id="location" style="width: 93%;">
+                <option value="mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Kolkata">Kolkata</option>
+            </select>*<br><br>
+            <input type="text" placeholder="Enquiry" style="height: 100px;"><br><br>
+            <input type="submit" id="submit"> 
+            </form>
+        </div>
+        </div>
+        <div id="right">
+           <span style="font-size:small;"> <a href="" style="color: gray;">Home</a> > <a href="gift.html" style="color: gray;">Gift Hampers</a> > <a href="" style="color: gray;">All Hampers</a></span>
+          <div id="right_gifthamper">
+            <div id="right_gifthamper_left">
+               <div> <h4>GIFT HAMPERS</h4></div>
+               <div style="margin-top: 12px; color: gray;font-size:medium;"><p>77 Products</p></div>
+            </div>
+            <select name="relevance" id="relevance" style="border: hidden white;" onchange="sorted()">
+                <option value="relevance">relevance</option>
+                <option value="lth">Low to high price</option>
+                <option value="htl">High to low  price</option>
+            </select>
+          </div>
+           
+           <hr>
+          <h4>Explore</h4> <hr>
+          <div id="append"></div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
+<script src="./script/all_hamper.js" type="module">
+  
+   
+</script>
