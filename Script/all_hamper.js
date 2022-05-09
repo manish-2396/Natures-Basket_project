@@ -1,5 +1,5 @@
-import login_navbar from "../Components/navbar.js"
-document.getElementById('main_export').innerHTML = login_navbar()
+// import login_navbar from "../Components/navbar.js"
+// document.getElementById('main_export').innerHTML = login_navbar()
 
 
 
