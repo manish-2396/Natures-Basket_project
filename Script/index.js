@@ -5,6 +5,10 @@ document.querySelector("footer").innerHTML = footerpage();
 import login_navbar from "../Components/navbar.js"
 document.getElementById('main_export').innerHTML = login_navbar()
 
+import nav1 from "../Components/nav1.js"
+console.log(nav1)
+document.querySelector("#nav1").innerHTML = nav1();
+
 let slide_bar = [
   {
     slide_:

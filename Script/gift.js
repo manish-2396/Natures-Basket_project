@@ -5,6 +5,10 @@ import {footerpage} from "../Components/footer.js"
 
 document.querySelector("footer").innerHTML = footerpage();
 
+import nav1 from "../Components/nav1.js"
+console.log(nav1)
+document.querySelector("#nav1").innerHTML = nav1();
+
 let data=[
     {
         image:"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/5179afc6-856c-428c-8ff7-41ddcce41710_425x425.jpg",
