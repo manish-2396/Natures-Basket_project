@@ -32,11 +32,11 @@ document.querySelector("#nav1").innerHTML = nav1();
         box.setAttribute = ("class", "innerBox");
 
         let delivery = document.createElement("p")
-        delivery.innerText = el.delivery;
+        delivery.innerText = el.delivery || "delivery in 90 minutes";
         delivery.setAttribute("class", "del1");
 
         let img1 = document.createElement("img")
-        img1.src = el.imgUrl;
+        img1.src =  el.imgUrl || el.image;
         img1.setAttribute("class", "im1")
 
         let name1 = document.createElement("h6")
@@ -44,7 +44,9 @@ document.querySelector("#nav1").innerHTML = nav1();
 
 
         let quantity = document.createElement("p")
-        quantity.innerText = el.qty;
+        quantity.innerText = el.qty || el.size;
+
+        
 
         let iner = document.createElement("div");
         iner.setAttribute("id", "inpr")
@@ -53,14 +55,24 @@ document.querySelector("#nav1").innerHTML = nav1();
         offer.inerText = el.offer;
 
 
+
         let strickedoffprice = document.createElement("p")
-        strickedoffprice.innerText = el.stPrice;
+        strickedoffprice.innerText = el.stPrice || el.mrp.m + el.mrp.r1;
         strickedoffprice.setAttribute("class", "stpr");
 
 
         let price = document.createElement("p")
-        price.innerText = el.price;
+        price.innerText = el.price || el.mrp.m + el.mrp.r;
         price.setAttribute("class", "pric");
+
+        // let strickedoffprice = document.createElement("p")
+        // strickedoffprice.innerText = el.stPrice;
+        // strickedoffprice.setAttribute("class", "stpr");
+
+
+        // let price = document.createElement("p")
+        // price.innerText = el.price;
+        // price.setAttribute("class", "pric");
 
 
         var btn = document.createElement("button")
