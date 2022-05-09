@@ -127,9 +127,16 @@ div.slide a:hover {
 
 #out {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
 }
 
 #alia {
   text-align: center;
   width: 34%;
+}
+.button{
+  height: 20px;
+  width: 150px;
 }
