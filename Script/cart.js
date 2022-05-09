@@ -65,6 +65,7 @@ document.querySelector("#nav1").innerHTML = nav1();
 
         var btn = document.createElement("button")
         btn.innerText = "Remove"
+        btn.setAttribute("class","button")
         btn.addEventListener("click", function()
         {
             removeItem(el, index)

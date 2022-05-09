@@ -133,3 +133,7 @@ div.slide a:hover {
   text-align: center;
   width: 34%;
 }
+.button{
+  height: 20px;
+  width: 150px;
+}
