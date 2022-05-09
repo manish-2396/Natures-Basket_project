@@ -1,4 +1,7 @@
 
+import {footerpage} from "../Components/footer.js"
+
+document.querySelector("footer").innerHTML = footerpage();
 
     let cartData = JSON.parse(localStorage.getItem("cart")) || [];
 
