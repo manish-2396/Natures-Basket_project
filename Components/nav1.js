@@ -209,16 +209,16 @@ function nav1() {
         <a href="">PAST PURCHASES</a>  
     </div>
     <div class="shopp"> 
-        <a href="">GIFTING </a> 
+        <a href="gift.html">GIFTING </a> 
     </div>
     <div class="shopp"> 
-        <a href="">REWARDS</a> 
+        <a href="rewards.html">REWARDS</a> 
     </div>
     <div class="shopp"> 
         <a href="blog.html">BLOG</a>  
     </div>
     <div class="shopp"> 
-        <a href="">OFFERS</a> 
+        <a href="offers.html">OFFERS</a> 
     </div>
     <div id="shop1"> 
         <a href="">CONNOISSEUR’S SELECTION</a> 

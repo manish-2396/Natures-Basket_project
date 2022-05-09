@@ -4,6 +4,10 @@ document.getElementById('main_export').innerHTML = login_navbar()
 import {footerpage} from "../Components/footer.js"
 
 document.querySelector("footer").innerHTML = footerpage();
+
+import nav1 from "../Components/nav1.js"
+console.log(nav1)
+document.querySelector("#nav1").innerHTML = nav1();
 let offersData = [
   {
     imgUrl:
