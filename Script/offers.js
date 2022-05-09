@@ -1,3 +1,6 @@
+import {footerpage} from "../Components/footer.js"
+
+document.querySelector("footer").innerHTML = footerpage();
 let offersData = [
   {
     imgUrl:
