@@ -32,7 +32,7 @@
 
 ### Team 
 
--Manish Kumar Chauhan
+-Manish Singh Chouhan
 -Akash Bhoi 
 -Dipak S 
 -Shivam 
