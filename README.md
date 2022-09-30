@@ -49,9 +49,11 @@
 ### Screenshots
 <img align="left" alt="Coding" width="550" src="https://github.com/manish-2396/Natures-Basket_project/blob/master/image/Screenshot%20(4).png">
 <br/>
-<img align="left" alt="Coding" width="250" src="https://github.com/manish-2396/Natures-Basket_project/blob/master/image/Screenshot%20(5).png">
 <br/>
-<img align="left" alt="Coding" width="150" src="https://github.com/manish-2396/Natures-Basket_project/blob/master/image/Screenshot%20(7).png">
+<img align="left" alt="Coding" width="550" src="https://github.com/manish-2396/Natures-Basket_project/blob/master/image/Screenshot%20(5).png">
+<br/>
+<br/>
+<img align="left" alt="Coding" width="550" src="https://github.com/manish-2396/Natures-Basket_project/blob/master/image/Screenshot%20(7).png">
 
 
 
